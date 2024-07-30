@@ -30,4 +30,4 @@ O desafio proposto pelo Rafa Skoberg tinha por objetivo criar um "jogo jogável"
 
 https://michellemaus.itch.io/tiny-magical-knight
 
-![Tiny Magical Knight Gameplay](addons/images/Tiny_Magical_Knight.gif)
+![Tiny Magical Knight Gameplay](addons/images/Tiny_Magical_Knight_compressed.gif)
