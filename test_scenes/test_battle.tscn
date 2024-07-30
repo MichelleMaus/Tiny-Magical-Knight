@@ -1,0 +1,178 @@
+[gd_scene load_steps=10 format=3 uid="uid://ctu8emgk5e0rk"]
+
+[ext_resource type="Texture2D" uid="uid://cxnl770usuqmq" path="res://addons/Tiny Swords/Factions/Knights/Troops/Warrior/Purple/Warrior_Purple.png" id="1_k85pd"]
+[ext_resource type="PackedScene" uid="uid://c8b6tl0k6sc2n" path="res://player/player.tscn" id="2_7q3la"]
+[ext_resource type="PackedScene" uid="uid://niwblokwyl5c" path="res://enemies/pawn.tscn" id="3_42spp"]
+[ext_resource type="PackedScene" uid="uid://ep57cf0isj1y" path="res://enemies/sheep.tscn" id="3_x7byn"]
+[ext_resource type="PackedScene" uid="uid://bspp3otkelbgl" path="res://enemies/goblin.tscn" id="5_cgg65"]
+[ext_resource type="Texture2D" uid="uid://bt68d0yjcxbf2" path="res://addons/Tiny Swords/UI/Banners/Banner_Horizontal.png" id="6_t4jms"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_5hodj"]
+line_spacing = 18.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_wuw54"]
+texture = ExtResource("6_t4jms")
+texture_margin_left = 32.0
+texture_margin_top = 24.0
+texture_margin_right = 32.0
+texture_margin_bottom = 48.0
+axis_stretch_horizontal = 2
+axis_stretch_vertical = 2
+region_rect = Rect2(32, 40, 128, 136)
+
+[sub_resource type="LabelSettings" id="LabelSettings_81xxw"]
+font_color = Color(0.176338, 0.150719, 0.11617, 1)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WarriorPurple" type="Sprite2D" parent="."]
+position = Vector2(1895, 885)
+texture = ExtResource("1_k85pd")
+
+[node name="Label" type="Label" parent="WarriorPurple"]
+offset_left = 591.0
+offset_top = -698.0
+offset_right = 627.0
+offset_bottom = -670.0
+scale = Vector2(2.33846, 2.50839)
+text = "idle"
+
+[node name="Label9" type="Label" parent="WarriorPurple"]
+offset_left = -491.0
+offset_top = -846.0
+offset_right = -411.0
+offset_bottom = -818.0
+scale = Vector2(4.48429, 4.69653)
+text = "0        1        2        3       4         5 "
+
+[node name="Label10" type="Label" parent="WarriorPurple"]
+offset_left = -623.0
+offset_top = -740.0
+offset_right = -605.0
+offset_bottom = -430.0
+scale = Vector2(4.48429, 4.69653)
+text = "0        1        2        3       4         5       6         7"
+label_settings = SubResource("LabelSettings_5hodj")
+autowrap_mode = 2
+
+[node name="Label2" type="Label" parent="WarriorPurple"]
+offset_left = 588.0
+offset_top = -504.0
+offset_right = 624.0
+offset_bottom = -476.0
+scale = Vector2(2.33846, 2.50839)
+text = "run
+"
+
+[node name="Label3" type="Label" parent="WarriorPurple"]
+offset_left = 592.0
+offset_top = -323.0
+offset_right = 695.0
+offset_bottom = -295.0
+scale = Vector2(2.33846, 2.50839)
+text = "attack_side_1"
+
+[node name="Label4" type="Label" parent="WarriorPurple"]
+offset_left = 593.0
+offset_top = -130.0
+offset_right = 696.0
+offset_bottom = -102.0
+scale = Vector2(2.33846, 2.50839)
+text = "attack_side_2"
+
+[node name="Label5" type="Label" parent="WarriorPurple"]
+offset_left = 591.0
+offset_top = 62.0
+offset_right = 706.0
+offset_bottom = 90.0
+scale = Vector2(2.33846, 2.50839)
+text = "attack_down_1"
+
+[node name="Label6" type="Label" parent="WarriorPurple"]
+offset_left = 598.0
+offset_top = 246.0
+offset_right = 713.0
+offset_bottom = 274.0
+scale = Vector2(2.33846, 2.50839)
+text = "attack_down_2"
+
+[node name="Label7" type="Label" parent="WarriorPurple"]
+offset_left = 583.0
+offset_top = 438.0
+offset_right = 698.0
+offset_bottom = 466.0
+scale = Vector2(2.33846, 2.50839)
+text = "attack_up_1"
+
+[node name="Label8" type="Label" parent="WarriorPurple"]
+offset_left = 579.0
+offset_top = 631.0
+offset_right = 694.0
+offset_bottom = 659.0
+scale = Vector2(2.33846, 2.50839)
+text = "attack_up_2"
+
+[node name="Player" parent="." instance=ExtResource("2_7q3la")]
+position = Vector2(334, 229)
+
+[node name="Sheep" parent="." instance=ExtResource("3_x7byn")]
+position = Vector2(767, 119)
+
+[node name="Sheep2" parent="." instance=ExtResource("3_x7byn")]
+position = Vector2(1039, 284)
+
+[node name="Sheep3" parent="." instance=ExtResource("3_x7byn")]
+position = Vector2(842, 528)
+
+[node name="Pawn" parent="." instance=ExtResource("3_42spp")]
+position = Vector2(971, 147)
+
+[node name="Pawn2" parent="." instance=ExtResource("3_42spp")]
+position = Vector2(1025, 447)
+
+[node name="Goblin" parent="." instance=ExtResource("5_cgg65")]
+position = Vector2(994, 625)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Panel2" type="Panel" parent="CanvasLayer"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -282.0
+offset_top = 8.0
+offset_right = -14.0
+offset_bottom = 104.0
+grow_horizontal = 0
+theme_override_styles/panel = SubResource("StyleBoxTexture_wuw54")
+
+[node name="GoldLabel" type="Label" parent="CanvasLayer/Panel2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 16.0
+offset_top = -23.0
+offset_right = 107.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "20.000 Gold"
+label_settings = SubResource("LabelSettings_81xxw")
+
+[node name="MeatLabel" type="Label" parent="CanvasLayer/Panel2"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -103.0
+offset_top = -24.0
+offset_right = -12.0
+offset_bottom = -1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "50 Meat"
+label_settings = SubResource("LabelSettings_81xxw")

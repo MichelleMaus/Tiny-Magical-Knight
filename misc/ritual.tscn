@@ -1,0 +1,426 @@
+[gd_scene load_steps=12 format=3 uid="uid://dprgca5jwj1iu"]
+
+[ext_resource type="Script" path="res://misc/ritual.gd" id="1_j3rmf"]
+[ext_resource type="Texture2D" uid="uid://s0vog0ac48f" path="res://addons/Kenney Particle Pack/PNG (Transparent)/circle_03.png" id="1_u4i1d"]
+[ext_resource type="Texture2D" uid="uid://dmob5bywqjyec" path="res://addons/Kenney Particle Pack/PNG (Transparent)/light_02.png" id="2_ch5aa"]
+[ext_resource type="Texture2D" uid="uid://btbgwi335rndf" path="res://addons/Kenney Particle Pack/PNG (Transparent)/magic_02.png" id="3_xp18j"]
+[ext_resource type="Texture2D" uid="uid://7bblnjcaew3k" path="res://addons/Kenney Particle Pack/PNG (Transparent)/star_08.png" id="5_7ka3t"]
+[ext_resource type="Texture2D" uid="uid://cej8srv4gbxkn" path="res://addons/Kenney Particle Pack/PNG (Transparent)/spark_02.png" id="8_580b4"]
+
+[sub_resource type="Animation" id="Animation_3i13y"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Images/Magic02:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Images:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Images/Circle03:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Images/Light02:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Images/Light02:scale")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.652263, 0.652263)]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Images/Magic03:scale")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.527872, 0.527872)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Images/Magic03:modulate")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"update": 0,
+"values": []
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Images/Magic03:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Images/Spark01:modulate")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Images/Spark01:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Images/Spark01:scale")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Images/Circle03:scale")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Images/Light02:modulate")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.00392157)]
+}
+
+[sub_resource type="Animation" id="Animation_xrfrp"]
+resource_name = "default"
+length = 5.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Images/Magic02:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 1.5708, 7.85398]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Images:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1, 4.5, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1e-05, 1e-05), Vector2(1, 1), Vector2(1, 1), Vector2(1e-05, 1e-05)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Images/Circle03:modulate")
+tracks/2/interp = 2
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5, 1.3, 1.5, 2.3, 2.5, 3.3, 3.5, 4.3, 4.5, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(0.937255, 0.454902, 0.960784, 1), Color(1, 1, 1, 0), Color(0.458824, 0.741176, 1, 1), Color(1, 1, 1, 0), Color(1, 0.65098, 1, 1), Color(1, 1, 1, 0), Color(0.294118, 0.827451, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Images/Light02:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 5.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, -6.28319]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Images/Light02:scale")
+tracks/4/interp = 2
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0, 1.5, 2.2, 2.9, 3.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.652263, 0.652263), Vector2(0.815, 0.815), Vector2(0.65, 0.65), Vector2(0.905, 0.905), Vector2(0.615, 0.615)]
+}
+tracks/5/type = "method"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath(".")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0.5, 1.5, 2.5, 3.5, 4.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"values": [{
+"args": [],
+"method": &"deal_damage"
+}, {
+"args": [],
+"method": &"deal_damage"
+}, {
+"args": [],
+"method": &"deal_damage"
+}, {
+"args": [],
+"method": &"deal_damage"
+}, {
+"args": [],
+"method": &"deal_damage"
+}]
+}
+tracks/6/type = "method"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath(".")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(5.5),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"queue_free"
+}]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("Images/Magic03:scale")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 1.1, 2, 3.1, 4, 5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.527872, 0.527872), Vector2(1.28801, 1.28801), Vector2(0.717905, 0.717905), Vector2(1.47804, 1.47804), Vector2(0.749578, 0.749578), Vector2(0.686226, 0.686226)]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("Images/Magic03:modulate")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(-0.1, 0.3, 0.5, 0.7, 1.1, 1.3, 1.5, 1.9, 2.1, 2.3, 2.6, 2.8, 3.2, 3.4, 3.6, 4, 4.2, 4.5, 5, 5.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(0.270588, 0.717647, 1, 1), Color(0.945098, 0.490196, 1, 1), Color(0.713726, 0.54902, 1, 0), Color(0.482353, 0.607843, 1, 1), Color(0.964706, 0.368627, 1, 1), Color(0.588235, 0.447059, 0.929412, 0), Color(0.211765, 0.521569, 0.854902, 1), Color(0.945098, 0.490196, 1, 1), Color(0.564706, 0.458824, 1, 0), Color(0.184314, 0.423529, 1, 1), Color(0.639216, 0.462745, 1, 0), Color(0.945098, 0.490196, 1, 1), Color(0.466667, 0.607843, 1, 1), Color(0.717647, 0.607843, 1, 0.00392157), Color(0.964706, 0.607843, 1, 1), Color(0.466667, 0.607843, 1, 1), Color(0.666667, 0.607843, 1, 0.0196078), Color(0.968627, 0.607843, 1, 1), Color(0.270588, 0.717647, 1, 1), Color(1, 1, 1, 1)]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("Images/Magic03:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.7, 1.4, 2.1, 2.6, 3.1, 3.6, 4.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 1.5708, 2.35619, 3.14159, 6.28319, 3.14159, 5.49779, 6.28319]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("Images/Spark01:modulate")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.4, 0.8, 1.3, 1.7, 2.1, 2.6, 3, 3.4, 3.9, 4.3, 4.7, 5.1, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.988235), Color(0.203922, 0.305882, 1, 0.494118), Color(1, 1, 1, 0), Color(1, 1, 1, 0.988235), Color(0.203922, 0.305882, 1, 0.494118), Color(1, 1, 1, 0), Color(1, 1, 1, 0.988235), Color(0.203922, 0.305882, 1, 0.494118), Color(1, 1, 1, 0), Color(1, 1, 1, 0.988235), Color(0.203922, 0.305882, 1, 0.192157), Color(1, 1, 1, 0), Color(1, 1, 1, 0.988235), Color(0.203922, 0.305882, 1, 0.494118)]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("Images/Spark01:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 2.5, 3.6),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.0, 6.28319, 0.0]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("Images/Spark01:scale")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 2.9, 5.4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(0.273015, 0.273015), Vector2(1, 1), Vector2(0.2, 0.2)]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("Images/Circle03:scale")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/keys = {
+"times": PackedFloat32Array(0.9, 1.5, 2, 2.6, 3.1, 3.7, 4.2, 4.8, 5.3, 5.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1e-05, 1e-05), Vector2(1, 1), Vector2(1e-05, 1e-05), Vector2(1, 1), Vector2(1e-05, 1e-05), Vector2(0.5, 0.5), Vector2(1e-05, 1e-05), Vector2(1, 1), Vector2(1e-05, 1e-05)]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("Images/Light02:modulate")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/keys = {
+"times": PackedFloat32Array(0.5, 1.3, 2, 2.7, 3.1, 3.5, 4, 4.3, 4.6, 5.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0.00392157), Color(1, 1, 1, 0.980392), Color(1, 1, 1, 0.00392157), Color(1, 1, 1, 0.980392), Color(1, 1, 1, 0.00392157), Color(1, 1, 1, 0.980392), Color(1, 1, 1, 0.00392157), Color(1, 1, 1, 0.980392), Color(1, 1, 1, 0.00392157), Color(1, 1, 1, 0.980392)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2o1m7"]
+_data = {
+"RESET": SubResource("Animation_3i13y"),
+"default": SubResource("Animation_xrfrp")
+}
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_infsp"]
+blend_mode = 1
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6lqql"]
+radius = 210.153
+
+[node name="Ritual" type="Node2D"]
+modulate = Color(1, 0.36258, 0.88581, 1)
+scale = Vector2(1.48, 1.48)
+script = ExtResource("1_j3rmf")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_2o1m7")
+}
+autoplay = "default"
+speed_scale = 1.5
+
+[node name="Images" type="Node2D" parent="."]
+
+[node name="Circle03" type="Sprite2D" parent="Images"]
+material = SubResource("CanvasItemMaterial_infsp")
+texture = ExtResource("1_u4i1d")
+
+[node name="Light02" type="Sprite2D" parent="Images"]
+modulate = Color(1, 1, 1, 0.00392157)
+material = SubResource("CanvasItemMaterial_infsp")
+scale = Vector2(0.652263, 0.652263)
+texture = ExtResource("2_ch5aa")
+
+[node name="Magic02" type="Sprite2D" parent="Images"]
+visible = false
+material = SubResource("CanvasItemMaterial_infsp")
+scale = Vector2(1.60116, 1.60116)
+texture = ExtResource("3_xp18j")
+
+[node name="Magic03" type="Sprite2D" parent="Images"]
+unique_name_in_owner = true
+modulate = Color(0.439216, 0.660784, 1, 1)
+material = SubResource("CanvasItemMaterial_infsp")
+scale = Vector2(0.527872, 0.527872)
+texture = ExtResource("5_7ka3t")
+
+[node name="Spark01" type="Sprite2D" parent="Images"]
+modulate = Color(1, 1, 1, 0)
+texture = ExtResource("8_580b4")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_6lqql")
+debug_color = Color(0.0627451, 0.6, 0.701961, 0)

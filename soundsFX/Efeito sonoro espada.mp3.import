@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dk3ekr5onlks2"
+path="res://.godot/imported/Efeito sonoro espada.mp3-e61a14a5549c31d09c8f44f4f554dd30.mp3str"
+
+[deps]
+
+source_file="res://soundsFX/Efeito sonoro espada.mp3"
+dest_files=["res://.godot/imported/Efeito sonoro espada.mp3-e61a14a5549c31d09c8f44f4f554dd30.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

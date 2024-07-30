@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgunoxn44kqr1"
+path="res://.godot/imported/Meat_Collected.wav-0a3c17adc083b2d2716ac1f073c30a80.sample"
+
+[deps]
+
+source_file="res://addons/Tiny Swords/Terrain/Bridge/Meat_Collected.wav"
+dest_files=["res://.godot/imported/Meat_Collected.wav-0a3c17adc083b2d2716ac1f073c30a80.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

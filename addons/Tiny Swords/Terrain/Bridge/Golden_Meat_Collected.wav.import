@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pnub15i84e"
+path="res://.godot/imported/Golden_Meat_Collected.wav-7e70b60a20a93bce168d68d0455388fb.sample"
+
+[deps]
+
+source_file="res://addons/Tiny Swords/Terrain/Bridge/Golden_Meat_Collected.wav"
+dest_files=["res://.godot/imported/Golden_Meat_Collected.wav-7e70b60a20a93bce168d68d0455388fb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

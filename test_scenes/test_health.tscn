@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://b8gm0uwtcubj3"]
+
+[ext_resource type="PackedScene" uid="uid://c8b6tl0k6sc2n" path="res://player/player.tscn" id="1_alcua"]
+[ext_resource type="PackedScene" uid="uid://niwblokwyl5c" path="res://enemies/pawn.tscn" id="2_5qif4"]
+
+[node name="TestHealth" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_alcua")]
+position = Vector2(572, 316)
+
+[node name="Pawn" parent="." instance=ExtResource("2_5qif4")]
+position = Vector2(-138, 261)
+
+[node name="Pawn2" parent="." instance=ExtResource("2_5qif4")]
+position = Vector2(392, -59)
+
+[node name="Pawn3" parent="." instance=ExtResource("2_5qif4")]
+position = Vector2(954, -61)
+
+[node name="Pawn4" parent="." instance=ExtResource("2_5qif4")]
+position = Vector2(1246, 140)
+
+[node name="Pawn5" parent="." instance=ExtResource("2_5qif4")]
+position = Vector2(1219, 569)
+
+[node name="Pawn6" parent="." instance=ExtResource("2_5qif4")]
+position = Vector2(158, 738)
+
+[node name="Pawn7" parent="." instance=ExtResource("2_5qif4")]
+position = Vector2(582, 738)
+
+[node name="Pawn8" parent="." instance=ExtResource("2_5qif4")]
+position = Vector2(1020, 728)

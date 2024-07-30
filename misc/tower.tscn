@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://byyetqychk3b6"]
+
+[ext_resource type="Texture2D" uid="uid://dn2h0ex8ckr1t" path="res://addons/Tiny Swords/Factions/Knights/Buildings/Tower/Tower_Purple.png" id="1_v8erw"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_62jgq"]
+radius = 46.0
+height = 134.0
+
+[node name="Tower" type="StaticBody2D"]
+
+[node name="Tower" type="Sprite2D" parent="."]
+position = Vector2(1, -100)
+texture = ExtResource("1_v8erw")
+region_rect = Rect2(400, 0, 160, 192)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -47)
+rotation = -1.5708
+shape = SubResource("CapsuleShape2D_62jgq")
