@@ -2,13 +2,13 @@
 
 # Desafio de Projeto: Tiny Magical Knight 🗡✨
 
-Esse é o meu primeiro jogo! Desenvolvido através do Godot Engine como projeto final do bootcamp Santander 2024 - Criando Jogos com Godot, em parceria com a DIO. A formação teve duração de 3 meses, de 29 de abril à 29 de julho de 2024.
+Esse é o meu primeiro jogo! Desenvolvido através da ferramenta Godot Engine como projeto final do bootcamp Santander 2024 - Criando Jogos com Godot, em parceria com a DIO. A formação teve duração de 3 meses e resultou neste projeto como atividade final, proposto pelo prof. Rafa Skoberg.
 
-## Objetivo 
+## 🎯 Objetivo 
 
-O desafio proposto pelo Rafa Skoberg tinha por objetivo criar um "jogo jogável", utilizando os conhecimentos adquiridos ao longo do curso para construir um protótipo de jogo e explorar alguns passos além do que foi passado. Desenvolvi um jogo em que você é um cavaleiro medieval que deve lutar contra os inimigos, coletar itens e correr - muito! Passeie pelo mapa e tente sobreviver o máximo de tempo que conseguir!
+O desafio era criar um "jogo jogável", utilizando os conhecimentos adquiridos ao longo do curso para construir um protótipo de jogo e explorar alguns passos além do que foi passado. Desenvolvi um jogo em que você é um cavaleiro medieval que deve lutar contra os inimigos, coletar itens e correr - muito! Passeie pelo mapa e tente sobreviver o máximo de tempo que conseguir!
 
-## Comandos 👩🏻‍💻
+## 👩🏻‍💻 Comandos 
 
 | Ação          |   Teclas         |
 | ------------- | ------------- |
@@ -16,7 +16,7 @@ O desafio proposto pelo Rafa Skoberg tinha por objetivo criar um "jogo jogável"
 | Atacar           | Espaço ou botão esquerdo do mouse           |
 | Ritual         | Ataque em área disparado automaticamente de forma recorrente            |
 
-## Recursos do jogo 👾
+## 👾 Recursos do jogo 
 
 - Animação de personagens: player e inimigos
 - Personagens com comportamento de ataque e dano
@@ -26,7 +26,7 @@ O desafio proposto pelo Rafa Skoberg tinha por objetivo criar um "jogo jogável"
 - Interface de Game Over com estatísticas da partida
 
 
-## Acesse o projeto 
+## 👇🏻 Acesse o projeto 
 
 https://michellemaus.itch.io/tiny-magical-knight
 
