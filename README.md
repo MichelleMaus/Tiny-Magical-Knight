@@ -2,7 +2,7 @@
 
 # Desafio de Projeto: Tiny Magical Knight 🗡✨
 
-Esse é o meu primeiro jogo! Desenvolvido através da ferramenta Godot Engine como projeto final do bootcamp Santander 2024 - Criando Jogos com Godot, em parceria com a DIO. A formação teve duração de 3 meses e resultou neste projeto, proposto pelo prof. Rafa Skoberg.
+Esse é o meu primeiro jogo! Desenvolvido através da ferramenta Godot Engine como atividade final do bootcamp Santander 2024 - Criando Jogos com Godot, em parceria com a DIO. A formação teve duração de 3 meses e resultou neste projeto, proposto pelo prof. Rafa Skoberg.
 
 ## 🎯 Objetivo 
 
