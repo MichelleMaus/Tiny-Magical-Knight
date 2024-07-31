@@ -13,7 +13,7 @@ O desafio era criar um "jogo jogável", utilizando os conhecimentos adquiridos a
 | Ação          |   Teclas         |
 | ------------- | ------------- |
 | Mover         | W, A, S, D ou teclas de seta            |
-| Atacar           | Espaço ou botão esquerdo do mouse           |
+| Atacar           | Barra de espaço ou botão esquerdo do mouse           |
 | Ritual         | Ataque em área disparado automaticamente de forma recorrente            |
 
 ## 👾 Recursos do jogo 
